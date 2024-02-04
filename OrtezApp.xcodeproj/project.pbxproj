@@ -1,0 +1,1404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58C7A6EA371712FB2D9872EC /* DevicesNotConnectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C7A583C9374ACDB4031E02 /* DevicesNotConnectedViewController.xib */; };
+		58C7A8780C7C102D45762C09 /* DevicesNotConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7AAAF99092321FCE39E8C /* DevicesNotConnectedViewController.swift */; };
+		93D04A285EFCFAD10FADE23A /* Pods_OrtezApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04B1807FD46C6DFD990A210 /* Pods_OrtezApp.framework */; };
+		AC02409927D28DB600CB4240 /* OptionsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02409827D28DB600CB4240 /* OptionsItem.swift */; };
+		AC02409B27D2942D00CB4240 /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02409A27D2942D00CB4240 /* OptionsTableViewCell.swift */; };
+		AC086A2727C7D74400BDEA9D /* SetDeviceNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC086A2527C7D74400BDEA9D /* SetDeviceNameViewController.xib */; };
+		AC086A2827C7D74400BDEA9D /* SetDeviceNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC086A2627C7D74400BDEA9D /* SetDeviceNameViewController.swift */; };
+		AC09989D27E23B5E001FB953 /* SettingsFreeModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09989C27E23B5E001FB953 /* SettingsFreeModeViewController.swift */; };
+		AC09989F27E23B65001FB953 /* SettingsFreeModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC09989E27E23B65001FB953 /* SettingsFreeModeViewController.xib */; };
+		AC1A32A927CFDD7F00C5FEDA /* DevicePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A32A827CFDD7F00C5FEDA /* DevicePreview.swift */; };
+		AC1A32AB27CFDFAA00C5FEDA /* DevicesPreviewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A32AA27CFDFAA00C5FEDA /* DevicesPreviewCollectionCell.swift */; };
+		AC1D61D927DA04F4008D1D49 /* PlayerReturnPauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D61D827DA04F4008D1D49 /* PlayerReturnPauseViewController.swift */; };
+		AC1D61DB27DA04FA008D1D49 /* PlayerReturnPauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1D61DA27DA04FA008D1D49 /* PlayerReturnPauseViewController.xib */; };
+		AC1EB3DC27C55CC500A8809B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1EB3DB27C55CC500A8809B /* AppDelegate.swift */; };
+		AC1EB3E027C55CC500A8809B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1EB3DF27C55CC500A8809B /* MainViewController.swift */; };
+		AC1EB3E527C55CC500A8809B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1EB3E427C55CC500A8809B /* Assets.xcassets */; };
+		AC1EB3E827C55CC500A8809B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1EB3E627C55CC500A8809B /* LaunchScreen.storyboard */; };
+		AC1EB3F427C5627D00A8809B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1EB3F327C5627D00A8809B /* MainViewController.xib */; };
+		AC20ACCA27C934E6004242DC /* ModalDeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20ACC827C934E6004242DC /* ModalDeviceListViewController.swift */; };
+		AC20ACCB27C934E6004242DC /* ModalDeviceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC20ACC927C934E6004242DC /* ModalDeviceListViewController.xib */; };
+		AC24FBDA27DA17940040386A /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC24FBD927DA17940040386A /* PlayerViewController.xib */; };
+		AC25D77C27CFC359000DC5A0 /* DevicesPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25D77A27CFC359000DC5A0 /* DevicesPreviewViewController.swift */; };
+		AC25D77D27CFC359000DC5A0 /* DevicesPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC25D77B27CFC359000DC5A0 /* DevicesPreviewViewController.xib */; };
+		AC29BC022809A4D200117EC6 /* CoreDataStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC29BC002809A4D200117EC6 /* CoreDataStorage.xcdatamodeld */; };
+		AC2DA80A282940490049035B /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2DA808282940490049035B /* devices.json */; };
+		AC2DA80D282942C00049035B /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DA80C282942C00049035B /* DeviceList.swift */; };
+		AC2DA810282943880049035B /* ProgramList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DA80F282943880049035B /* ProgramList.swift */; };
+		AC2DA812282944A70049035B /* DevicesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DA811282944A70049035B /* DevicesData.swift */; };
+		AC2E3C8527D4AFC400DEBF14 /* ModalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E3C8427D4AFC400DEBF14 /* ModalTitleView.swift */; };
+		AC395F6927CBF0EB00C2CB77 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC395F6727CBF0EB00C2CB77 /* InformationViewController.swift */; };
+		AC395F6A27CBF0EB00C2CB77 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC395F6827CBF0EB00C2CB77 /* InformationViewController.xib */; };
+		AC3B34412808761200949C9A /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B34402808761200949C9A /* BluetoothManager.swift */; };
+		AC3F69A827D3E2DF00B19EF0 /* ProgramsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3F69A427D3E2DF00B19EF0 /* ProgramsListViewController.xib */; };
+		AC3F69A927D3E2DF00B19EF0 /* ProgramsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F69A527D3E2DF00B19EF0 /* ProgramsListViewController.swift */; };
+		AC3F69AA27D3E2DF00B19EF0 /* ProgramsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F69A727D3E2DF00B19EF0 /* ProgramsListTableViewCell.swift */; };
+		AC42E64727D9F4E30043AAF9 /* DeviceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42E64627D9F4E30043AAF9 /* DeviceStatus.swift */; };
+		AC42E64927D9F6570043AAF9 /* TableDefaultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42E64827D9F6570043AAF9 /* TableDefaultItem.swift */; };
+		AC49591A27DC9CE200DD0358 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49591927DC9CE200DD0358 /* PlaylistViewController.swift */; };
+		AC49591C27DC9CE900DD0358 /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC49591B27DC9CE900DD0358 /* PlaylistViewController.xib */; };
+		AC49591E27DC9CF400DD0358 /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49591D27DC9CF400DD0358 /* PlaylistTableViewCell.swift */; };
+		AC4BEB2D280F3B1800B10AD0 /* UserDevicesStatus+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BEB2C280F3B1800B10AD0 /* UserDevicesStatus+Extensions.swift */; };
+		AC58A01A27C799F400781555 /* NeedConnectDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC58A01827C799F400781555 /* NeedConnectDeviceViewController.xib */; };
+		AC58A01B27C799F400781555 /* NeedConnectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58A01927C799F400781555 /* NeedConnectDeviceViewController.swift */; };
+		AC5F0A2827E312BF00E4A7EF /* FreeModeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F0A2727E312BF00E4A7EF /* FreeModeSettings.swift */; };
+		AC60047827DCEDE200B455F0 /* StagesProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60047727DCEDE200B455F0 /* StagesProgram.swift */; };
+		AC608BAE27F47B9E00FC62C8 /* DeviceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC608BAD27F47B9E00FC62C8 /* DeviceSettings.swift */; };
+		AC66FBB427CE691400512488 /* DeviceManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66FBB227CE691400512488 /* DeviceManagerViewController.swift */; };
+		AC66FBB527CE691400512488 /* DeviceManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC66FBB327CE691400512488 /* DeviceManagerViewController.xib */; };
+		AC66FBB827CE71A400512488 /* DeviceManagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66FBB727CE71A400512488 /* DeviceManagerTableViewCell.swift */; };
+		AC68884227D9DD760014F0AB /* DeviceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68884127D9DD760014F0AB /* DeviceStatusViewController.swift */; };
+		AC68884427D9DDCB0014F0AB /* DeviceStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC68884327D9DDCB0014F0AB /* DeviceStatusViewController.xib */; };
+		AC68884727D9DDEF0014F0AB /* DeviceStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68884627D9DDEF0014F0AB /* DeviceStatusTableViewCell.swift */; };
+		AC826FC527DF9A4E00BD0E4A /* FreeModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC826FC427DF9A4E00BD0E4A /* FreeModeViewController.swift */; };
+		AC826FC727DF9A5400BD0E4A /* FreeModeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC826FC627DF9A5400BD0E4A /* FreeModeViewController.xib */; };
+		AC869E7827E4671C00540C01 /* SettingsFreeModeTableViewSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC869E7727E4671C00540C01 /* SettingsFreeModeTableViewSliderCell.swift */; };
+		AC9413FF27C8D57E00672B34 /* ConnectingDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9413FD27C8D57E00672B34 /* ConnectingDeviceViewController.swift */; };
+		AC94140027C8D57E00672B34 /* ConnectingDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9413FE27C8D57E00672B34 /* ConnectingDeviceViewController.xib */; };
+		AC9AF82227E34E3F00606A61 /* SettingsFreeModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9AF82127E34E3F00606A61 /* SettingsFreeModeTableViewCell.swift */; };
+		AC9B3C8B27F23A7C00BE96E7 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B3C8A27F23A7C00BE96E7 /* UserSettings.swift */; };
+		ACA7604627E5CFAD0064ECFB /* NewProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7604527E5CFAD0064ECFB /* NewProgramViewController.swift */; };
+		ACA7604827E5CFB30064ECFB /* NewProgramViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA7604727E5CFB30064ECFB /* NewProgramViewController.xib */; };
+		ACA7604B27E5D14C0064ECFB /* NewProgramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7604A27E5D14C0064ECFB /* NewProgramTableViewCell.swift */; };
+		ACA7604D27E5D1590064ECFB /* NewProgramTableViewSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7604C27E5D1590064ECFB /* NewProgramTableViewSliderCell.swift */; };
+		ACA7605027E5D3580064ECFB /* NewProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7604F27E5D3580064ECFB /* NewProgramItem.swift */; };
+		ACA7605227E5D4430064ECFB /* NewProgramSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7605127E5D4430064ECFB /* NewProgramSettings.swift */; };
+		ACA7605427E5DA3A0064ECFB /* NewProgramTableViewSegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7605327E5DA3A0064ECFB /* NewProgramTableViewSegmentedControlCell.swift */; };
+		ACA76B6927C97387008F9983 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA76B6827C97387008F9983 /* Device.swift */; };
+		ACC2C94727D139DC0076603B /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC2C94527D139DC0076603B /* OptionsViewController.xib */; };
+		ACC2C94827D139DC0076603B /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2C94627D139DC0076603B /* OptionsViewController.swift */; };
+		ACC6D9A727E0765000854459 /* ConfirmModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC6D9A627E0765000854459 /* ConfirmModalViewController.swift */; };
+		ACC6D9A927E0765500854459 /* ConfirmModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC6D9A827E0765500854459 /* ConfirmModalViewController.xib */; };
+		ACC7303F27C6203400E24715 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7303E27C6203400E24715 /* AppTheme.swift */; };
+		ACC7304127C620B400E24715 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7304027C620B400E24715 /* AppStrings.swift */; };
+		ACC7304527C6236300E24715 /* ContraindicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7304327C6236300E24715 /* ContraindicationsViewController.swift */; };
+		ACC7304627C6236300E24715 /* ContraindicationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC7304427C6236300E24715 /* ContraindicationsViewController.xib */; };
+		ACC7304B27C6268200E24715 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7304A27C6268200E24715 /* CustomNavigationController.swift */; };
+		ACC7304D27C6309E00E24715 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7304C27C6309E00E24715 /* UIButton+Extensions.swift */; };
+		ACC7305127C63E5600E24715 /* AskConnectDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7304F27C63E5600E24715 /* AskConnectDeviceViewController.swift */; };
+		ACC7305227C63E5600E24715 /* AskConnectDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC7305027C63E5600E24715 /* AskConnectDeviceViewController.xib */; };
+		ACCA76EA280D883D00ED7209 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA76E9280D883D00ED7209 /* DeviceManager.swift */; };
+		ACCA76EC280DAE4300ED7209 /* UserDevices+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA76EB280DAE4300ED7209 /* UserDevices+Extensions.swift */; };
+		ACCABA0D27DC8F6F00918109 /* PlayerSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABA0C27DC8F6F00918109 /* PlayerSettingsViewController.swift */; };
+		ACCABA0F27DC8F7F00918109 /* PlayerSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCABA0E27DC8F7F00918109 /* PlayerSettingsViewController.xib */; };
+		ACCABA1127DC8F9800918109 /* PlayerSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABA1027DC8F9800918109 /* PlayerSettingsTableViewCell.swift */; };
+		ACCE05C027CD431800E7ACFC /* DevicesConnectionLostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCE05BE27CD431800E7ACFC /* DevicesConnectionLostViewController.swift */; };
+		ACCE05C127CD431800E7ACFC /* DevicesConnectionLostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCE05BF27CD431800E7ACFC /* DevicesConnectionLostViewController.xib */; };
+		ACD377A727DE606E00697673 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD377A627DE606E00697673 /* UIViewController+Extensions.swift */; };
+		ACD4649327DD0BCA009AE74C /* PlayerResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD4649227DD0BCA009AE74C /* PlayerResultViewController.swift */; };
+		ACD4649527DD0BE3009AE74C /* PlayerResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD4649427DD0BE3009AE74C /* PlayerResultViewController.xib */; };
+		ACD623D627D8FDA500DFD313 /* OptionsDeviceCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD623D527D8FDA500DFD313 /* OptionsDeviceCollectionCell.swift */; };
+		ACD9F50C27E26E1E00C78BEE /* FreeModeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9F50B27E26E1E00C78BEE /* FreeModeItem.swift */; };
+		ACDFF22727C674B200772D2C /* ConnectionErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDFF22527C674B200772D2C /* ConnectionErrorViewController.xib */; };
+		ACDFF22827C674B200772D2C /* ConnectionErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF22627C674B200772D2C /* ConnectionErrorViewController.swift */; };
+		ACDFF22C27C6893100772D2C /* SuccessConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF22A27C6893100772D2C /* SuccessConnectionViewController.swift */; };
+		ACDFF22D27C6893100772D2C /* SuccessConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDFF22B27C6893100772D2C /* SuccessConnectionViewController.xib */; };
+		ACFAE33427CA275D00BB52E3 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFAE33327CA275D00BB52E3 /* DeviceTableViewCell.swift */; };
+		C5538D962B4DAA2D0037182A /* ElectrodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538D952B4DAA2D0037182A /* ElectrodeListViewController.swift */; };
+		C5538D982B4DD6610037182A /* ElectrodeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5538D972B4DD6610037182A /* ElectrodeListViewController.xib */; };
+		C5538D9A2B4EE1740037182A /* ElectrodesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538D992B4EE1740037182A /* ElectrodesList.swift */; };
+		C56C58B42B4C63800018BF1A /* ElectrodeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56C58B32B4C63800018BF1A /* ElectrodeListTableViewCell.swift */; };
+		C56C58B62B4C66860018BF1A /* electrodes.json in Resources */ = {isa = PBXBuildFile; fileRef = C56C58B52B4C66860018BF1A /* electrodes.json */; };
+		C56C58B82B4C686E0018BF1A /* electrodes_en.json in Resources */ = {isa = PBXBuildFile; fileRef = C56C58B72B4C686E0018BF1A /* electrodes_en.json */; };
+		CA1C247F28AA2CB6008EFFC7 /* PlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1C247E28AA2CB6008EFFC7 /* PlayerDelegate.swift */; };
+		CA2579A428B6ADE8002F63D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA2579A628B6ADE8002F63D9 /* Localizable.strings */; };
+		CA2579A728B6ADED002F63D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA2579A928B6ADED002F63D9 /* Localizable.strings */; };
+		CA2579AC28BAA175002F63D9 /* programs.json in Resources */ = {isa = PBXBuildFile; fileRef = CA2579AB28BAA175002F63D9 /* programs.json */; };
+		CA2579AE28BAA30F002F63D9 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2579AD28BAA30F002F63D9 /* PlayerViewController.swift */; };
+		CA2E14AD28AE915500C20837 /* Float + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E14AC28AE915500C20837 /* Float + Extension.swift */; };
+		CA2E7C1B28B6A50B0024922A /* devices_en.json in Resources */ = {isa = PBXBuildFile; fileRef = CA2E7C1928B6A50B0024922A /* devices_en.json */; };
+		CA2E7C1C28B6A50B0024922A /* programs_en.json in Resources */ = {isa = PBXBuildFile; fileRef = CA2E7C1A28B6A50B0024922A /* programs_en.json */; };
+		CA2E7C1E28B6A5500024922A /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E7C1D28B6A5500024922A /* Double+Extensions.swift */; };
+		CA2E7C2128B6A5580024922A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E7C1F28B6A5580024922A /* String+Extensions.swift */; };
+		CA2E7C2428B6A57B0024922A /* StatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E7C2328B6A57B0024922A /* StatHelper.swift */; };
+		CA9BD20928A2BBB100A38A70 /* Array + Extenison .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD20828A2BBB100A38A70 /* Array + Extenison .swift */; };
+		CA9BD20B28A2BBBF00A38A70 /* Int + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD20A28A2BBBF00A38A70 /* Int + Extension.swift */; };
+		CA9BD20D28A4D59B00A38A70 /* SessionCharachteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BD20C28A4D59B00A38A70 /* SessionCharachteristic.swift */; };
+		CABBA18A28A526230024CA83 /* Extension + AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBA18928A526230024CA83 /* Extension + AppDelegate.swift */; };
+		CABBA18C28A659070024CA83 /* SaveAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBA18B28A659070024CA83 /* SaveAlertController.swift */; };
+		CABBA19028A66E780024CA83 /* UITextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBA18F28A66E780024CA83 /* UITextField + Extension.swift */; };
+		CABBA19228A68BD40024CA83 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABBA19128A68BD40024CA83 /* UserDefaults.swift */; };
+		CAC5D8DB28ABB72A007EF4A7 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5D8DA28ABB72A007EF4A7 /* States.swift */; };
+		CAC5D92828AD5D7E007EF4A7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5D92728AD5D7E007EF4A7 /* InfoViewController.swift */; };
+		CAC5D92C28AD64A5007EF4A7 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC5D92B28AD64A5007EF4A7 /* InfoView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F8AA987917DF0154F691A3F /* Pods-OrtezApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrtezApp.debug.xcconfig"; path = "Target Support Files/Pods-OrtezApp/Pods-OrtezApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58C7A583C9374ACDB4031E02 /* DevicesNotConnectedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevicesNotConnectedViewController.xib; sourceTree = "<group>"; };
+		58C7AAAF99092321FCE39E8C /* DevicesNotConnectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesNotConnectedViewController.swift; sourceTree = "<group>"; };
+		6100C3E2545DE6A04EFAFE40 /* Pods-OrtezApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrtezApp.release.xcconfig"; path = "Target Support Files/Pods-OrtezApp/Pods-OrtezApp.release.xcconfig"; sourceTree = "<group>"; };
+		A04B1807FD46C6DFD990A210 /* Pods_OrtezApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OrtezApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC02409827D28DB600CB4240 /* OptionsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsItem.swift; sourceTree = "<group>"; };
+		AC02409A27D2942D00CB4240 /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		AC086A2527C7D74400BDEA9D /* SetDeviceNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetDeviceNameViewController.xib; sourceTree = "<group>"; };
+		AC086A2627C7D74400BDEA9D /* SetDeviceNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetDeviceNameViewController.swift; sourceTree = "<group>"; };
+		AC09989C27E23B5E001FB953 /* SettingsFreeModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFreeModeViewController.swift; sourceTree = "<group>"; };
+		AC09989E27E23B65001FB953 /* SettingsFreeModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsFreeModeViewController.xib; sourceTree = "<group>"; };
+		AC1A32A827CFDD7F00C5FEDA /* DevicePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicePreview.swift; sourceTree = "<group>"; };
+		AC1A32AA27CFDFAA00C5FEDA /* DevicesPreviewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesPreviewCollectionCell.swift; sourceTree = "<group>"; };
+		AC1D61D827DA04F4008D1D49 /* PlayerReturnPauseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerReturnPauseViewController.swift; sourceTree = "<group>"; };
+		AC1D61DA27DA04FA008D1D49 /* PlayerReturnPauseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerReturnPauseViewController.xib; sourceTree = "<group>"; };
+		AC1EB3D827C55CC500A8809B /* OrtezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrtezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1EB3DB27C55CC500A8809B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1EB3DF27C55CC500A8809B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AC1EB3E427C55CC500A8809B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1EB3E727C55CC500A8809B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1EB3F327C5627D00A8809B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AC20ACC827C934E6004242DC /* ModalDeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalDeviceListViewController.swift; sourceTree = "<group>"; };
+		AC20ACC927C934E6004242DC /* ModalDeviceListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalDeviceListViewController.xib; sourceTree = "<group>"; };
+		AC24FBD927DA17940040386A /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		AC25D77A27CFC359000DC5A0 /* DevicesPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesPreviewViewController.swift; sourceTree = "<group>"; };
+		AC25D77B27CFC359000DC5A0 /* DevicesPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevicesPreviewViewController.xib; sourceTree = "<group>"; };
+		AC29697F2819916C000C27FF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AC29BC012809A4D200117EC6 /* CoreDataStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataStorage.xcdatamodel; sourceTree = "<group>"; };
+		AC2DA808282940490049035B /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
+		AC2DA80C282942C00049035B /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		AC2DA80F282943880049035B /* ProgramList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramList.swift; sourceTree = "<group>"; };
+		AC2DA811282944A70049035B /* DevicesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesData.swift; sourceTree = "<group>"; };
+		AC2E3C8427D4AFC400DEBF14 /* ModalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTitleView.swift; sourceTree = "<group>"; };
+		AC395F6727CBF0EB00C2CB77 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		AC395F6827CBF0EB00C2CB77 /* InformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		AC3B34402808761200949C9A /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		AC3F69A427D3E2DF00B19EF0 /* ProgramsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramsListViewController.xib; sourceTree = "<group>"; };
+		AC3F69A527D3E2DF00B19EF0 /* ProgramsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsListViewController.swift; sourceTree = "<group>"; };
+		AC3F69A727D3E2DF00B19EF0 /* ProgramsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsListTableViewCell.swift; sourceTree = "<group>"; };
+		AC42E64627D9F4E30043AAF9 /* DeviceStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatus.swift; sourceTree = "<group>"; };
+		AC42E64827D9F6570043AAF9 /* TableDefaultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDefaultItem.swift; sourceTree = "<group>"; };
+		AC49591927DC9CE200DD0358 /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		AC49591B27DC9CE900DD0358 /* PlaylistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistViewController.xib; sourceTree = "<group>"; };
+		AC49591D27DC9CF400DD0358 /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		AC4BEB2C280F3B1800B10AD0 /* UserDevicesStatus+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDevicesStatus+Extensions.swift"; sourceTree = "<group>"; };
+		AC58A01827C799F400781555 /* NeedConnectDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NeedConnectDeviceViewController.xib; sourceTree = "<group>"; };
+		AC58A01927C799F400781555 /* NeedConnectDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedConnectDeviceViewController.swift; sourceTree = "<group>"; };
+		AC5F0A2727E312BF00E4A7EF /* FreeModeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeModeSettings.swift; sourceTree = "<group>"; };
+		AC60047727DCEDE200B455F0 /* StagesProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesProgram.swift; sourceTree = "<group>"; };
+		AC608BAD27F47B9E00FC62C8 /* DeviceSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSettings.swift; sourceTree = "<group>"; };
+		AC66FBB227CE691400512488 /* DeviceManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManagerViewController.swift; sourceTree = "<group>"; };
+		AC66FBB327CE691400512488 /* DeviceManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceManagerViewController.xib; sourceTree = "<group>"; };
+		AC66FBB727CE71A400512488 /* DeviceManagerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManagerTableViewCell.swift; sourceTree = "<group>"; };
+		AC68884127D9DD760014F0AB /* DeviceStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceStatusViewController.swift; sourceTree = "<group>"; };
+		AC68884327D9DDCB0014F0AB /* DeviceStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceStatusViewController.xib; sourceTree = "<group>"; };
+		AC68884627D9DDEF0014F0AB /* DeviceStatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceStatusTableViewCell.swift; sourceTree = "<group>"; };
+		AC826FC427DF9A4E00BD0E4A /* FreeModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeModeViewController.swift; sourceTree = "<group>"; };
+		AC826FC627DF9A5400BD0E4A /* FreeModeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FreeModeViewController.xib; sourceTree = "<group>"; };
+		AC869E7727E4671C00540C01 /* SettingsFreeModeTableViewSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFreeModeTableViewSliderCell.swift; sourceTree = "<group>"; };
+		AC9413FD27C8D57E00672B34 /* ConnectingDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectingDeviceViewController.swift; sourceTree = "<group>"; };
+		AC9413FE27C8D57E00672B34 /* ConnectingDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectingDeviceViewController.xib; sourceTree = "<group>"; };
+		AC9AF82127E34E3F00606A61 /* SettingsFreeModeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsFreeModeTableViewCell.swift; sourceTree = "<group>"; };
+		AC9B3C8A27F23A7C00BE96E7 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		ACA7604527E5CFAD0064ECFB /* NewProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramViewController.swift; sourceTree = "<group>"; };
+		ACA7604727E5CFB30064ECFB /* NewProgramViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewProgramViewController.xib; sourceTree = "<group>"; };
+		ACA7604A27E5D14C0064ECFB /* NewProgramTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramTableViewCell.swift; sourceTree = "<group>"; };
+		ACA7604C27E5D1590064ECFB /* NewProgramTableViewSliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramTableViewSliderCell.swift; sourceTree = "<group>"; };
+		ACA7604F27E5D3580064ECFB /* NewProgramItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramItem.swift; sourceTree = "<group>"; };
+		ACA7605127E5D4430064ECFB /* NewProgramSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramSettings.swift; sourceTree = "<group>"; };
+		ACA7605327E5DA3A0064ECFB /* NewProgramTableViewSegmentedControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProgramTableViewSegmentedControlCell.swift; sourceTree = "<group>"; };
+		ACA76B6827C97387008F9983 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		ACC2C94527D139DC0076603B /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		ACC2C94627D139DC0076603B /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		ACC6D9A627E0765000854459 /* ConfirmModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmModalViewController.swift; sourceTree = "<group>"; };
+		ACC6D9A827E0765500854459 /* ConfirmModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmModalViewController.xib; sourceTree = "<group>"; };
+		ACC7303E27C6203400E24715 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		ACC7304027C620B400E24715 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		ACC7304327C6236300E24715 /* ContraindicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContraindicationsViewController.swift; sourceTree = "<group>"; };
+		ACC7304427C6236300E24715 /* ContraindicationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContraindicationsViewController.xib; sourceTree = "<group>"; };
+		ACC7304A27C6268200E24715 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		ACC7304C27C6309E00E24715 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		ACC7304F27C63E5600E24715 /* AskConnectDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskConnectDeviceViewController.swift; sourceTree = "<group>"; };
+		ACC7305027C63E5600E24715 /* AskConnectDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskConnectDeviceViewController.xib; sourceTree = "<group>"; };
+		ACCA76E9280D883D00ED7209 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		ACCA76EB280DAE4300ED7209 /* UserDevices+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDevices+Extensions.swift"; sourceTree = "<group>"; };
+		ACCABA0C27DC8F6F00918109 /* PlayerSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSettingsViewController.swift; sourceTree = "<group>"; };
+		ACCABA0E27DC8F7F00918109 /* PlayerSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerSettingsViewController.xib; sourceTree = "<group>"; };
+		ACCABA1027DC8F9800918109 /* PlayerSettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSettingsTableViewCell.swift; sourceTree = "<group>"; };
+		ACCE05BE27CD431800E7ACFC /* DevicesConnectionLostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesConnectionLostViewController.swift; sourceTree = "<group>"; };
+		ACCE05BF27CD431800E7ACFC /* DevicesConnectionLostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevicesConnectionLostViewController.xib; sourceTree = "<group>"; };
+		ACD377A627DE606E00697673 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		ACD4649227DD0BCA009AE74C /* PlayerResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerResultViewController.swift; sourceTree = "<group>"; };
+		ACD4649427DD0BE3009AE74C /* PlayerResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerResultViewController.xib; sourceTree = "<group>"; };
+		ACD623D527D8FDA500DFD313 /* OptionsDeviceCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsDeviceCollectionCell.swift; sourceTree = "<group>"; };
+		ACD9F50B27E26E1E00C78BEE /* FreeModeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeModeItem.swift; sourceTree = "<group>"; };
+		ACDFF22527C674B200772D2C /* ConnectionErrorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionErrorViewController.xib; sourceTree = "<group>"; };
+		ACDFF22627C674B200772D2C /* ConnectionErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionErrorViewController.swift; sourceTree = "<group>"; };
+		ACDFF22A27C6893100772D2C /* SuccessConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessConnectionViewController.swift; sourceTree = "<group>"; };
+		ACDFF22B27C6893100772D2C /* SuccessConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessConnectionViewController.xib; sourceTree = "<group>"; };
+		ACFAE33327CA275D00BB52E3 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		C5538D952B4DAA2D0037182A /* ElectrodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectrodeListViewController.swift; sourceTree = "<group>"; };
+		C5538D972B4DD6610037182A /* ElectrodeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElectrodeListViewController.xib; sourceTree = "<group>"; };
+		C5538D992B4EE1740037182A /* ElectrodesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectrodesList.swift; sourceTree = "<group>"; };
+		C56C58B32B4C63800018BF1A /* ElectrodeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectrodeListTableViewCell.swift; sourceTree = "<group>"; };
+		C56C58B52B4C66860018BF1A /* electrodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = electrodes.json; sourceTree = "<group>"; };
+		C56C58B72B4C686E0018BF1A /* electrodes_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = electrodes_en.json; sourceTree = "<group>"; };
+		CA1C247E28AA2CB6008EFFC7 /* PlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDelegate.swift; sourceTree = "<group>"; };
+		CA2579A528B6ADE8002F63D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA2579A828B6ADED002F63D9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA2579AB28BAA175002F63D9 /* programs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = programs.json; sourceTree = "<group>"; };
+		CA2579AD28BAA30F002F63D9 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		CA2E14AC28AE915500C20837 /* Float + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float + Extension.swift"; sourceTree = "<group>"; };
+		CA2E7C1928B6A50B0024922A /* devices_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices_en.json; sourceTree = "<group>"; };
+		CA2E7C1A28B6A50B0024922A /* programs_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = programs_en.json; sourceTree = "<group>"; };
+		CA2E7C1D28B6A5500024922A /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		CA2E7C1F28B6A5580024922A /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "OrtezApp/Code/Extensions/String+Extensions.swift"; sourceTree = SOURCE_ROOT; };
+		CA2E7C2328B6A57B0024922A /* StatHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatHelper.swift; sourceTree = "<group>"; };
+		CA9BD20828A2BBB100A38A70 /* Array + Extenison .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + Extenison .swift"; sourceTree = "<group>"; };
+		CA9BD20A28A2BBBF00A38A70 /* Int + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + Extension.swift"; sourceTree = "<group>"; };
+		CA9BD20C28A4D59B00A38A70 /* SessionCharachteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCharachteristic.swift; sourceTree = "<group>"; };
+		CABBA18928A526230024CA83 /* Extension + AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + AppDelegate.swift"; sourceTree = "<group>"; };
+		CABBA18B28A659070024CA83 /* SaveAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveAlertController.swift; sourceTree = "<group>"; };
+		CABBA18F28A66E780024CA83 /* UITextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extension.swift"; sourceTree = "<group>"; };
+		CABBA19128A68BD40024CA83 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		CAC5D8DA28ABB72A007EF4A7 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		CAC5D92728AD5D7E007EF4A7 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CAC5D92B28AD64A5007EF4A7 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1EB3D527C55CC500A8809B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D04A285EFCFAD10FADE23A /* Pods_OrtezApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC02409C27D2943600CB4240 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC02409A27D2942D00CB4240 /* OptionsTableViewCell.swift */,
+				ACD623D527D8FDA500DFD313 /* OptionsDeviceCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC086A2427C7D74400BDEA9D /* SetDeviceName */ = {
+			isa = PBXGroup;
+			children = (
+				AC086A2527C7D74400BDEA9D /* SetDeviceNameViewController.xib */,
+				AC086A2627C7D74400BDEA9D /* SetDeviceNameViewController.swift */,
+			);
+			path = SetDeviceName;
+			sourceTree = "<group>";
+		};
+		AC0998A027E23B6C001FB953 /* SettingsFreeMode */ = {
+			isa = PBXGroup;
+			children = (
+				AC09989C27E23B5E001FB953 /* SettingsFreeModeViewController.swift */,
+				AC9AF82327E34E4E00606A61 /* Views */,
+				AC09989E27E23B65001FB953 /* SettingsFreeModeViewController.xib */,
+			);
+			path = SettingsFreeMode;
+			sourceTree = "<group>";
+		};
+		AC1A32AC27CFDFAE00C5FEDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A32AA27CFDFAA00C5FEDA /* DevicesPreviewCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC1D61DC27DA056C008D1D49 /* PlayerReturnPause */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D61D827DA04F4008D1D49 /* PlayerReturnPauseViewController.swift */,
+				AC1D61DA27DA04FA008D1D49 /* PlayerReturnPauseViewController.xib */,
+			);
+			path = PlayerReturnPause;
+			sourceTree = "<group>";
+		};
+		AC1D61DD27DA0579008D1D49 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7604927E5CFC10064ECFB /* NewProgram */,
+				AC0998A027E23B6C001FB953 /* SettingsFreeMode */,
+				ACD4649627DD0BEC009AE74C /* PlayerResult */,
+				AC49591F27DC9CFB00DD0358 /* Playlist */,
+				ACCABA1227DC8FA600918109 /* PlayerSettings */,
+				AC24FBDB27DA17A90040386A /* Player */,
+				AC1D61DC27DA056C008D1D49 /* PlayerReturnPause */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		AC1EB3CF27C55CC500A8809B = {
+			isa = PBXGroup;
+			children = (
+				AC1EB3DA27C55CC500A8809B /* OrtezApp */,
+				AC1EB3D927C55CC500A8809B /* Products */,
+				DDA87EB21EE5444D6E927507 /* Pods */,
+				EDE71BB83C819A58FD5A8337 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1EB3D927C55CC500A8809B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EB3D827C55CC500A8809B /* OrtezApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1EB3DA27C55CC500A8809B /* OrtezApp */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7304727C6256E00E24715 /* Code */,
+				AC1EB3F027C55D5A00A8809B /* Resources */,
+				AC1EB3EF27C55D4800A8809B /* SupportingFiles */,
+			);
+			path = OrtezApp;
+			sourceTree = "<group>";
+		};
+		AC1EB3EF27C55D4800A8809B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EB3E627C55CC500A8809B /* LaunchScreen.storyboard */,
+				AC29BC002809A4D200117EC6 /* CoreDataStorage.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AC1EB3F027C55D5A00A8809B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E7C2D28B6AA940024922A /* ru */,
+				CA2E7C2C28B6AA8D0024922A /* en */,
+				AC2DA80B282940510049035B /* JsonData */,
+				AC1EB3E427C55CC500A8809B /* Assets.xcassets */,
+				ACC7303E27C6203400E24715 /* AppTheme.swift */,
+				ACC7304027C620B400E24715 /* AppStrings.swift */,
+				AC9B3C8A27F23A7C00BE96E7 /* UserSettings.swift */,
+				AC608BAD27F47B9E00FC62C8 /* DeviceSettings.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC1EB3F127C55DBB00A8809B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ACC6D9AA27E0767600854459 /* ConfirmModal */,
+				AC9806FC27E0F28E002C227B /* ModulesWithBackground */,
+				AC395F6627CBF0EB00C2CB77 /* Information */,
+				AC826FC827DF9AC400BD0E4A /* FreeMode */,
+				AC1D61DD27DA0579008D1D49 /* Player */,
+				ACDFF22327C6748B00772D2C /* Device */,
+				ACC7304227C6236300E24715 /* Contraindications */,
+				AC1EB3F227C55FD900A8809B /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AC1EB3F227C55FD900A8809B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EB3DF27C55CC500A8809B /* MainViewController.swift */,
+				AC1EB3F327C5627D00A8809B /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC20ACC727C934E6004242DC /* ModalDeviceList */ = {
+			isa = PBXGroup;
+			children = (
+				AC20ACC827C934E6004242DC /* ModalDeviceListViewController.swift */,
+				ACFAE33527CA316B00BB52E3 /* Views */,
+				AC20ACC927C934E6004242DC /* ModalDeviceListViewController.xib */,
+			);
+			path = ModalDeviceList;
+			sourceTree = "<group>";
+		};
+		AC24FBDB27DA17A90040386A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				CA1C247B28AA26CC008EFFC7 /* Helper */,
+				AC24FBD927DA17940040386A /* PlayerViewController.xib */,
+				CA2579AD28BAA30F002F63D9 /* PlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		AC25D77927CFC359000DC5A0 /* DevicesPreview */ = {
+			isa = PBXGroup;
+			children = (
+				AC25D77A27CFC359000DC5A0 /* DevicesPreviewViewController.swift */,
+				AC25D77B27CFC359000DC5A0 /* DevicesPreviewViewController.xib */,
+				AC1A32AC27CFDFAE00C5FEDA /* Views */,
+			);
+			path = DevicesPreview;
+			sourceTree = "<group>";
+		};
+		AC2DA80B282940510049035B /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E7C1928B6A50B0024922A /* devices_en.json */,
+				AC2DA808282940490049035B /* devices.json */,
+				CA2579AB28BAA175002F63D9 /* programs.json */,
+				CA2E7C1A28B6A50B0024922A /* programs_en.json */,
+				C56C58B52B4C66860018BF1A /* electrodes.json */,
+				C56C58B72B4C686E0018BF1A /* electrodes_en.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		AC2DA80E282942CC0049035B /* JsonModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC2DA80C282942C00049035B /* DeviceList.swift */,
+				AC2DA80F282943880049035B /* ProgramList.swift */,
+				C5538D992B4EE1740037182A /* ElectrodesList.swift */,
+			);
+			path = JsonModels;
+			sourceTree = "<group>";
+		};
+		AC2E3C8627D4B5E000DEBF14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E3C8427D4AFC400DEBF14 /* ModalTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC395F6627CBF0EB00C2CB77 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				AC395F6727CBF0EB00C2CB77 /* InformationViewController.swift */,
+				AC395F6827CBF0EB00C2CB77 /* InformationViewController.xib */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		AC3F69A327D3E2DF00B19EF0 /* ProgramsList */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F69A427D3E2DF00B19EF0 /* ProgramsListViewController.xib */,
+				AC3F69A527D3E2DF00B19EF0 /* ProgramsListViewController.swift */,
+				AC3F69A627D3E2DF00B19EF0 /* Views */,
+			);
+			path = ProgramsList;
+			sourceTree = "<group>";
+		};
+		AC3F69A627D3E2DF00B19EF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F69A727D3E2DF00B19EF0 /* ProgramsListTableViewCell.swift */,
+				CABBA18B28A659070024CA83 /* SaveAlertController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC49591F27DC9CFB00DD0358 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				AC49591927DC9CE200DD0358 /* PlaylistViewController.swift */,
+				AC49592027DC9D1B00DD0358 /* Views */,
+				AC49591B27DC9CE900DD0358 /* PlaylistViewController.xib */,
+				AC60047927DCEE2700B455F0 /* Model */,
+			);
+			name = Playlist;
+			path = ../Device/DeviceStatus/Playlist;
+			sourceTree = "<group>";
+		};
+		AC49592027DC9D1B00DD0358 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC49591D27DC9CF400DD0358 /* PlaylistTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC58A01727C799F400781555 /* NeedConnectDevice */ = {
+			isa = PBXGroup;
+			children = (
+				AC58A01827C799F400781555 /* NeedConnectDeviceViewController.xib */,
+				AC58A01927C799F400781555 /* NeedConnectDeviceViewController.swift */,
+			);
+			path = NeedConnectDevice;
+			sourceTree = "<group>";
+		};
+		AC60047927DCEE2700B455F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC60047727DCEDE200B455F0 /* StagesProgram.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC66FBB127CE691400512488 /* DeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC66FBB627CE71A400512488 /* Views */,
+				AC66FBB227CE691400512488 /* DeviceManagerViewController.swift */,
+				AC66FBB327CE691400512488 /* DeviceManagerViewController.xib */,
+			);
+			path = DeviceManager;
+			sourceTree = "<group>";
+		};
+		AC66FBB627CE71A400512488 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC66FBB727CE71A400512488 /* DeviceManagerTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC68884527D9DDD70014F0AB /* DeviceStatus */ = {
+			isa = PBXGroup;
+			children = (
+				AC68884127D9DD760014F0AB /* DeviceStatusViewController.swift */,
+				AC68884827D9DDFF0014F0AB /* Views */,
+				AC68884327D9DDCB0014F0AB /* DeviceStatusViewController.xib */,
+			);
+			path = DeviceStatus;
+			sourceTree = "<group>";
+		};
+		AC68884827D9DDFF0014F0AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC68884627D9DDEF0014F0AB /* DeviceStatusTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC826FC827DF9AC400BD0E4A /* FreeMode */ = {
+			isa = PBXGroup;
+			children = (
+				AC826FC427DF9A4E00BD0E4A /* FreeModeViewController.swift */,
+				AC826FC627DF9A5400BD0E4A /* FreeModeViewController.xib */,
+			);
+			path = FreeMode;
+			sourceTree = "<group>";
+		};
+		AC9413FC27C8D57E00672B34 /* ConnectingDevice */ = {
+			isa = PBXGroup;
+			children = (
+				AC9413FD27C8D57E00672B34 /* ConnectingDeviceViewController.swift */,
+				AC9413FE27C8D57E00672B34 /* ConnectingDeviceViewController.xib */,
+			);
+			path = ConnectingDevice;
+			sourceTree = "<group>";
+		};
+		AC9806FC27E0F28E002C227B /* ModulesWithBackground */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5D92628AD5D6C007EF4A7 /* InfoViewController */,
+				ACC2C94327D138130076603B /* DevicesNotConnected */,
+				ACCE05BD27CD431800E7ACFC /* DevicesConnectionLost */,
+				ACC2C94427D139DC0076603B /* Options */,
+				C53090CC2B4AF7D9005606BF /* ElectrodeList */,
+				AC3F69A327D3E2DF00B19EF0 /* ProgramsList */,
+			);
+			path = ModulesWithBackground;
+			sourceTree = "<group>";
+		};
+		AC9AF82327E34E4E00606A61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AF82127E34E3F00606A61 /* SettingsFreeModeTableViewCell.swift */,
+				AC869E7727E4671C00540C01 /* SettingsFreeModeTableViewSliderCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACA7604927E5CFC10064ECFB /* NewProgram */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7604E27E5D1620064ECFB /* Views */,
+				ACA7604527E5CFAD0064ECFB /* NewProgramViewController.swift */,
+				ACA7604727E5CFB30064ECFB /* NewProgramViewController.xib */,
+			);
+			path = NewProgram;
+			sourceTree = "<group>";
+		};
+		ACA7604E27E5D1620064ECFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACA7604A27E5D14C0064ECFB /* NewProgramTableViewCell.swift */,
+				ACA7605327E5DA3A0064ECFB /* NewProgramTableViewSegmentedControlCell.swift */,
+				ACA7604C27E5D1590064ECFB /* NewProgramTableViewSliderCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACA76B6A27C973AF008F9983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC42E64827D9F6570043AAF9 /* TableDefaultItem.swift */,
+				AC1A32A827CFDD7F00C5FEDA /* DevicePreview.swift */,
+				ACA76B6827C97387008F9983 /* Device.swift */,
+				AC02409827D28DB600CB4240 /* OptionsItem.swift */,
+				ACD9F50B27E26E1E00C78BEE /* FreeModeItem.swift */,
+				ACA7604F27E5D3580064ECFB /* NewProgramItem.swift */,
+				AC5F0A2727E312BF00E4A7EF /* FreeModeSettings.swift */,
+				ACA7605127E5D4430064ECFB /* NewProgramSettings.swift */,
+				CA9BD20C28A4D59B00A38A70 /* SessionCharachteristic.swift */,
+				AC42E64627D9F4E30043AAF9 /* DeviceStatus.swift */,
+				AC2DA80E282942CC0049035B /* JsonModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACC2C94327D138130076603B /* DevicesNotConnected */ = {
+			isa = PBXGroup;
+			children = (
+				58C7A583C9374ACDB4031E02 /* DevicesNotConnectedViewController.xib */,
+				58C7AAAF99092321FCE39E8C /* DevicesNotConnectedViewController.swift */,
+			);
+			path = DevicesNotConnected;
+			sourceTree = "<group>";
+		};
+		ACC2C94427D139DC0076603B /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2C94527D139DC0076603B /* OptionsViewController.xib */,
+				ACC2C94627D139DC0076603B /* OptionsViewController.swift */,
+				AC02409C27D2943600CB4240 /* Views */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		ACC6D9AA27E0767600854459 /* ConfirmModal */ = {
+			isa = PBXGroup;
+			children = (
+				ACC6D9A827E0765500854459 /* ConfirmModalViewController.xib */,
+				ACC6D9A627E0765000854459 /* ConfirmModalViewController.swift */,
+			);
+			path = ConfirmModal;
+			sourceTree = "<group>";
+		};
+		ACC7304227C6236300E24715 /* Contraindications */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7304327C6236300E24715 /* ContraindicationsViewController.swift */,
+				ACC7304427C6236300E24715 /* ContraindicationsViewController.xib */,
+			);
+			path = Contraindications;
+			sourceTree = "<group>";
+		};
+		ACC7304727C6256E00E24715 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7304927C6266200E24715 /* Core */,
+				ACC7304827C6258400E24715 /* Extensions */,
+				AC1EB3F127C55DBB00A8809B /* Modules */,
+				ACA76B6A27C973AF008F9983 /* Models */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		ACC7304827C6258400E24715 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA9BD20628A2BB9600A38A70 /* Helpers */,
+				ACC7304C27C6309E00E24715 /* UIButton+Extensions.swift */,
+				CA2E7C1D28B6A5500024922A /* Double+Extensions.swift */,
+				ACD377A627DE606E00697673 /* UIViewController+Extensions.swift */,
+				ACCA76EB280DAE4300ED7209 /* UserDevices+Extensions.swift */,
+				AC4BEB2C280F3B1800B10AD0 /* UserDevicesStatus+Extensions.swift */,
+				CABBA18F28A66E780024CA83 /* UITextField + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACC7304927C6266200E24715 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC1EB3DB27C55CC500A8809B /* AppDelegate.swift */,
+				ACC7304A27C6268200E24715 /* CustomNavigationController.swift */,
+				AC2E3C8627D4B5E000DEBF14 /* Views */,
+				AC3B34402808761200949C9A /* BluetoothManager.swift */,
+				CA2E7C2328B6A57B0024922A /* StatHelper.swift */,
+				CABBA19128A68BD40024CA83 /* UserDefaults.swift */,
+				ACCA76E9280D883D00ED7209 /* DeviceManager.swift */,
+				AC2DA811282944A70049035B /* DevicesData.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ACC7304E27C63E5600E24715 /* AskConnectDevice */ = {
+			isa = PBXGroup;
+			children = (
+				ACC7304F27C63E5600E24715 /* AskConnectDeviceViewController.swift */,
+				ACC7305027C63E5600E24715 /* AskConnectDeviceViewController.xib */,
+			);
+			path = AskConnectDevice;
+			sourceTree = "<group>";
+		};
+		ACCABA1227DC8FA600918109 /* PlayerSettings */ = {
+			isa = PBXGroup;
+			children = (
+				ACCABA0C27DC8F6F00918109 /* PlayerSettingsViewController.swift */,
+				ACCABA1327DC8FB200918109 /* Views */,
+				ACCABA0E27DC8F7F00918109 /* PlayerSettingsViewController.xib */,
+			);
+			path = PlayerSettings;
+			sourceTree = "<group>";
+		};
+		ACCABA1327DC8FB200918109 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACCABA1027DC8F9800918109 /* PlayerSettingsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACCE05BD27CD431800E7ACFC /* DevicesConnectionLost */ = {
+			isa = PBXGroup;
+			children = (
+				ACCE05BE27CD431800E7ACFC /* DevicesConnectionLostViewController.swift */,
+				ACCE05BF27CD431800E7ACFC /* DevicesConnectionLostViewController.xib */,
+			);
+			path = DevicesConnectionLost;
+			sourceTree = "<group>";
+		};
+		ACD4649627DD0BEC009AE74C /* PlayerResult */ = {
+			isa = PBXGroup;
+			children = (
+				ACD4649227DD0BCA009AE74C /* PlayerResultViewController.swift */,
+				ACD4649427DD0BE3009AE74C /* PlayerResultViewController.xib */,
+			);
+			path = PlayerResult;
+			sourceTree = "<group>";
+		};
+		ACDFF22327C6748B00772D2C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				AC68884527D9DDD70014F0AB /* DeviceStatus */,
+				AC25D77927CFC359000DC5A0 /* DevicesPreview */,
+				AC66FBB127CE691400512488 /* DeviceManager */,
+				AC20ACC727C934E6004242DC /* ModalDeviceList */,
+				AC9413FC27C8D57E00672B34 /* ConnectingDevice */,
+				AC086A2427C7D74400BDEA9D /* SetDeviceName */,
+				AC58A01727C799F400781555 /* NeedConnectDevice */,
+				ACDFF22927C6893100772D2C /* SuccessConnection */,
+				ACDFF22427C674B200772D2C /* ConnectionError */,
+				ACC7304E27C63E5600E24715 /* AskConnectDevice */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		ACDFF22427C674B200772D2C /* ConnectionError */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFF22527C674B200772D2C /* ConnectionErrorViewController.xib */,
+				ACDFF22627C674B200772D2C /* ConnectionErrorViewController.swift */,
+			);
+			path = ConnectionError;
+			sourceTree = "<group>";
+		};
+		ACDFF22927C6893100772D2C /* SuccessConnection */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFF22A27C6893100772D2C /* SuccessConnectionViewController.swift */,
+				ACDFF22B27C6893100772D2C /* SuccessConnectionViewController.xib */,
+			);
+			path = SuccessConnection;
+			sourceTree = "<group>";
+		};
+		ACFAE33527CA316B00BB52E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAE33327CA275D00BB52E3 /* DeviceTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C53090CC2B4AF7D9005606BF /* ElectrodeList */ = {
+			isa = PBXGroup;
+			children = (
+				C56C58B22B4C63550018BF1A /* Views */,
+				C5538D952B4DAA2D0037182A /* ElectrodeListViewController.swift */,
+				C5538D972B4DD6610037182A /* ElectrodeListViewController.xib */,
+			);
+			path = ElectrodeList;
+			sourceTree = "<group>";
+		};
+		C56C58B22B4C63550018BF1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C56C58B32B4C63800018BF1A /* ElectrodeListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA1C247B28AA26CC008EFFC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5D8D928ABB71A007EF4A7 /* States */,
+				CA1C247E28AA2CB6008EFFC7 /* PlayerDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CA2E7C2C28B6AA8D0024922A /* en */ = {
+			isa = PBXGroup;
+			children = (
+				CA2579A628B6ADE8002F63D9 /* Localizable.strings */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
+		CA2E7C2D28B6AA940024922A /* ru */ = {
+			isa = PBXGroup;
+			children = (
+				CA2579A928B6ADED002F63D9 /* Localizable.strings */,
+			);
+			path = ru;
+			sourceTree = "<group>";
+		};
+		CA9BD20628A2BB9600A38A70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E7C1F28B6A5580024922A /* String+Extensions.swift */,
+				CA9BD20828A2BBB100A38A70 /* Array + Extenison .swift */,
+				CA9BD20A28A2BBBF00A38A70 /* Int + Extension.swift */,
+				CABBA18928A526230024CA83 /* Extension + AppDelegate.swift */,
+				CA2E14AC28AE915500C20837 /* Float + Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CAC5D8D928ABB71A007EF4A7 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5D8DA28ABB72A007EF4A7 /* States.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		CAC5D92628AD5D6C007EF4A7 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAC5D92728AD5D7E007EF4A7 /* InfoViewController.swift */,
+				CAC5D92B28AD64A5007EF4A7 /* InfoView.xib */,
+			);
+			path = InfoViewController;
+			sourceTree = "<group>";
+		};
+		DDA87EB21EE5444D6E927507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8AA987917DF0154F691A3F /* Pods-OrtezApp.debug.xcconfig */,
+				6100C3E2545DE6A04EFAFE40 /* Pods-OrtezApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDE71BB83C819A58FD5A8337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04B1807FD46C6DFD990A210 /* Pods_OrtezApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1EB3D727C55CC500A8809B /* OrtezApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1EB3EC27C55CC500A8809B /* Build configuration list for PBXNativeTarget "OrtezApp" */;
+			buildPhases = (
+				122FB3F649414AE8E83283AB /* [CP] Check Pods Manifest.lock */,
+				AC1EB3D427C55CC500A8809B /* Sources */,
+				AC1EB3D527C55CC500A8809B /* Frameworks */,
+				AC1EB3D627C55CC500A8809B /* Resources */,
+				AD9F479B9599A14A6C3A002D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrtezApp;
+			productName = OrtezApp;
+			productReference = AC1EB3D827C55CC500A8809B /* OrtezApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1EB3D027C55CC500A8809B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AC1EB3D727C55CC500A8809B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AC1EB3D327C55CC500A8809B /* Build configuration list for PBXProject "OrtezApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = AC1EB3CF27C55CC500A8809B;
+			productRefGroup = AC1EB3D927C55CC500A8809B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1EB3D727C55CC500A8809B /* OrtezApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1EB3D627C55CC500A8809B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1EB3E827C55CC500A8809B /* LaunchScreen.storyboard in Resources */,
+				AC24FBDA27DA17940040386A /* PlayerViewController.xib in Resources */,
+				AC25D77D27CFC359000DC5A0 /* DevicesPreviewViewController.xib in Resources */,
+				AC086A2727C7D74400BDEA9D /* SetDeviceNameViewController.xib in Resources */,
+				CAC5D92C28AD64A5007EF4A7 /* InfoView.xib in Resources */,
+				AC58A01A27C799F400781555 /* NeedConnectDeviceViewController.xib in Resources */,
+				ACC7305227C63E5600E24715 /* AskConnectDeviceViewController.xib in Resources */,
+				AC826FC727DF9A5400BD0E4A /* FreeModeViewController.xib in Resources */,
+				AC1EB3F427C5627D00A8809B /* MainViewController.xib in Resources */,
+				AC20ACCB27C934E6004242DC /* ModalDeviceListViewController.xib in Resources */,
+				AC1EB3E527C55CC500A8809B /* Assets.xcassets in Resources */,
+				CA2E7C1B28B6A50B0024922A /* devices_en.json in Resources */,
+				CA2579A728B6ADED002F63D9 /* Localizable.strings in Resources */,
+				AC94140027C8D57E00672B34 /* ConnectingDeviceViewController.xib in Resources */,
+				CA2E7C1C28B6A50B0024922A /* programs_en.json in Resources */,
+				AC2DA80A282940490049035B /* devices.json in Resources */,
+				AC68884427D9DDCB0014F0AB /* DeviceStatusViewController.xib in Resources */,
+				C56C58B82B4C686E0018BF1A /* electrodes_en.json in Resources */,
+				CA2579A428B6ADE8002F63D9 /* Localizable.strings in Resources */,
+				AC49591C27DC9CE900DD0358 /* PlaylistViewController.xib in Resources */,
+				AC66FBB527CE691400512488 /* DeviceManagerViewController.xib in Resources */,
+				ACC6D9A927E0765500854459 /* ConfirmModalViewController.xib in Resources */,
+				ACC7304627C6236300E24715 /* ContraindicationsViewController.xib in Resources */,
+				ACD4649527DD0BE3009AE74C /* PlayerResultViewController.xib in Resources */,
+				ACCE05C127CD431800E7ACFC /* DevicesConnectionLostViewController.xib in Resources */,
+				AC3F69A827D3E2DF00B19EF0 /* ProgramsListViewController.xib in Resources */,
+				AC09989F27E23B65001FB953 /* SettingsFreeModeViewController.xib in Resources */,
+				ACCABA0F27DC8F7F00918109 /* PlayerSettingsViewController.xib in Resources */,
+				C5538D982B4DD6610037182A /* ElectrodeListViewController.xib in Resources */,
+				ACDFF22D27C6893100772D2C /* SuccessConnectionViewController.xib in Resources */,
+				CA2579AC28BAA175002F63D9 /* programs.json in Resources */,
+				ACA7604827E5CFB30064ECFB /* NewProgramViewController.xib in Resources */,
+				ACDFF22727C674B200772D2C /* ConnectionErrorViewController.xib in Resources */,
+				ACC2C94727D139DC0076603B /* OptionsViewController.xib in Resources */,
+				AC1D61DB27DA04FA008D1D49 /* PlayerReturnPauseViewController.xib in Resources */,
+				C56C58B62B4C66860018BF1A /* electrodes.json in Resources */,
+				AC395F6A27CBF0EB00C2CB77 /* InformationViewController.xib in Resources */,
+				58C7A6EA371712FB2D9872EC /* DevicesNotConnectedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		122FB3F649414AE8E83283AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OrtezApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9F479B9599A14A6C3A002D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrtezApp/Pods-OrtezApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OrtezApp/Pods-OrtezApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OrtezApp/Pods-OrtezApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1EB3D427C55CC500A8809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA7605027E5D3580064ECFB /* NewProgramItem.swift in Sources */,
+				AC2DA812282944A70049035B /* DevicesData.swift in Sources */,
+				AC1A32A927CFDD7F00C5FEDA /* DevicePreview.swift in Sources */,
+				ACC7304B27C6268200E24715 /* CustomNavigationController.swift in Sources */,
+				AC49591A27DC9CE200DD0358 /* PlaylistViewController.swift in Sources */,
+				ACCABA0D27DC8F6F00918109 /* PlayerSettingsViewController.swift in Sources */,
+				CA2E14AD28AE915500C20837 /* Float + Extension.swift in Sources */,
+				ACDFF22827C674B200772D2C /* ConnectionErrorViewController.swift in Sources */,
+				CAC5D92828AD5D7E007EF4A7 /* InfoViewController.swift in Sources */,
+				CABBA18C28A659070024CA83 /* SaveAlertController.swift in Sources */,
+				AC25D77C27CFC359000DC5A0 /* DevicesPreviewViewController.swift in Sources */,
+				CABBA19028A66E780024CA83 /* UITextField + Extension.swift in Sources */,
+				C56C58B42B4C63800018BF1A /* ElectrodeListTableViewCell.swift in Sources */,
+				ACCA76EA280D883D00ED7209 /* DeviceManager.swift in Sources */,
+				AC1D61D927DA04F4008D1D49 /* PlayerReturnPauseViewController.swift in Sources */,
+				AC02409B27D2942D00CB4240 /* OptionsTableViewCell.swift in Sources */,
+				AC68884727D9DDEF0014F0AB /* DeviceStatusTableViewCell.swift in Sources */,
+				ACC7304D27C6309E00E24715 /* UIButton+Extensions.swift in Sources */,
+				AC1A32AB27CFDFAA00C5FEDA /* DevicesPreviewCollectionCell.swift in Sources */,
+				AC3B34412808761200949C9A /* BluetoothManager.swift in Sources */,
+				AC4BEB2D280F3B1800B10AD0 /* UserDevicesStatus+Extensions.swift in Sources */,
+				CA2E7C2128B6A5580024922A /* String+Extensions.swift in Sources */,
+				CA2E7C2428B6A57B0024922A /* StatHelper.swift in Sources */,
+				ACD623D627D8FDA500DFD313 /* OptionsDeviceCollectionCell.swift in Sources */,
+				ACA7605227E5D4430064ECFB /* NewProgramSettings.swift in Sources */,
+				AC42E64927D9F6570043AAF9 /* TableDefaultItem.swift in Sources */,
+				AC68884227D9DD760014F0AB /* DeviceStatusViewController.swift in Sources */,
+				AC608BAE27F47B9E00FC62C8 /* DeviceSettings.swift in Sources */,
+				ACC7303F27C6203400E24715 /* AppTheme.swift in Sources */,
+				ACD9F50C27E26E1E00C78BEE /* FreeModeItem.swift in Sources */,
+				ACA7605427E5DA3A0064ECFB /* NewProgramTableViewSegmentedControlCell.swift in Sources */,
+				CA9BD20D28A4D59B00A38A70 /* SessionCharachteristic.swift in Sources */,
+				ACD4649327DD0BCA009AE74C /* PlayerResultViewController.swift in Sources */,
+				AC20ACCA27C934E6004242DC /* ModalDeviceListViewController.swift in Sources */,
+				AC66FBB427CE691400512488 /* DeviceManagerViewController.swift in Sources */,
+				AC5F0A2827E312BF00E4A7EF /* FreeModeSettings.swift in Sources */,
+				ACDFF22C27C6893100772D2C /* SuccessConnectionViewController.swift in Sources */,
+				ACC7304527C6236300E24715 /* ContraindicationsViewController.swift in Sources */,
+				ACA7604627E5CFAD0064ECFB /* NewProgramViewController.swift in Sources */,
+				ACA7604B27E5D14C0064ECFB /* NewProgramTableViewCell.swift in Sources */,
+				AC49591E27DC9CF400DD0358 /* PlaylistTableViewCell.swift in Sources */,
+				AC60047827DCEDE200B455F0 /* StagesProgram.swift in Sources */,
+				CA2579AE28BAA30F002F63D9 /* PlayerViewController.swift in Sources */,
+				AC09989D27E23B5E001FB953 /* SettingsFreeModeViewController.swift in Sources */,
+				CA1C247F28AA2CB6008EFFC7 /* PlayerDelegate.swift in Sources */,
+				CA2E7C1E28B6A5500024922A /* Double+Extensions.swift in Sources */,
+				ACFAE33427CA275D00BB52E3 /* DeviceTableViewCell.swift in Sources */,
+				ACC6D9A727E0765000854459 /* ConfirmModalViewController.swift in Sources */,
+				AC1EB3E027C55CC500A8809B /* MainViewController.swift in Sources */,
+				AC9B3C8B27F23A7C00BE96E7 /* UserSettings.swift in Sources */,
+				AC3F69A927D3E2DF00B19EF0 /* ProgramsListViewController.swift in Sources */,
+				ACC7304127C620B400E24715 /* AppStrings.swift in Sources */,
+				ACD377A727DE606E00697673 /* UIViewController+Extensions.swift in Sources */,
+				CAC5D8DB28ABB72A007EF4A7 /* States.swift in Sources */,
+				AC66FBB827CE71A400512488 /* DeviceManagerTableViewCell.swift in Sources */,
+				ACA76B6927C97387008F9983 /* Device.swift in Sources */,
+				AC9AF82227E34E3F00606A61 /* SettingsFreeModeTableViewCell.swift in Sources */,
+				CA9BD20928A2BBB100A38A70 /* Array + Extenison .swift in Sources */,
+				CABBA18A28A526230024CA83 /* Extension + AppDelegate.swift in Sources */,
+				AC086A2827C7D74400BDEA9D /* SetDeviceNameViewController.swift in Sources */,
+				AC3F69AA27D3E2DF00B19EF0 /* ProgramsListTableViewCell.swift in Sources */,
+				AC826FC527DF9A4E00BD0E4A /* FreeModeViewController.swift in Sources */,
+				AC42E64727D9F4E30043AAF9 /* DeviceStatus.swift in Sources */,
+				AC9413FF27C8D57E00672B34 /* ConnectingDeviceViewController.swift in Sources */,
+				AC1EB3DC27C55CC500A8809B /* AppDelegate.swift in Sources */,
+				AC58A01B27C799F400781555 /* NeedConnectDeviceViewController.swift in Sources */,
+				CABBA19228A68BD40024CA83 /* UserDefaults.swift in Sources */,
+				ACCA76EC280DAE4300ED7209 /* UserDevices+Extensions.swift in Sources */,
+				AC2E3C8527D4AFC400DEBF14 /* ModalTitleView.swift in Sources */,
+				ACA7604D27E5D1590064ECFB /* NewProgramTableViewSliderCell.swift in Sources */,
+				ACC2C94827D139DC0076603B /* OptionsViewController.swift in Sources */,
+				ACC7305127C63E5600E24715 /* AskConnectDeviceViewController.swift in Sources */,
+				AC02409927D28DB600CB4240 /* OptionsItem.swift in Sources */,
+				ACCABA1127DC8F9800918109 /* PlayerSettingsTableViewCell.swift in Sources */,
+				CA9BD20B28A2BBBF00A38A70 /* Int + Extension.swift in Sources */,
+				ACCE05C027CD431800E7ACFC /* DevicesConnectionLostViewController.swift in Sources */,
+				AC395F6927CBF0EB00C2CB77 /* InformationViewController.swift in Sources */,
+				AC869E7827E4671C00540C01 /* SettingsFreeModeTableViewSliderCell.swift in Sources */,
+				AC2DA80D282942C00049035B /* DeviceList.swift in Sources */,
+				AC29BC022809A4D200117EC6 /* CoreDataStorage.xcdatamodeld in Sources */,
+				AC2DA810282943880049035B /* ProgramList.swift in Sources */,
+				C5538D9A2B4EE1740037182A /* ElectrodesList.swift in Sources */,
+				58C7A8780C7C102D45762C09 /* DevicesNotConnectedViewController.swift in Sources */,
+				C5538D962B4DAA2D0037182A /* ElectrodeListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC1EB3E627C55CC500A8809B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1EB3E727C55CC500A8809B /* Base */,
+				AC29697F2819916C000C27FF /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA2579A628B6ADE8002F63D9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2579A528B6ADE8002F63D9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CA2579A928B6ADED002F63D9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2579A828B6ADED002F63D9 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1EB3EA27C55CC500A8809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1EB3EB27C55CC500A8809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1EB3ED27C55CC500A8809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8AA987917DF0154F691A3F /* Pods-OrtezApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = R3Y55P47Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrtezApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Используется для подключения устройств к приложению.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Используется для подключения устройств к приложению.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "please allow";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.smartmedicaltech.srt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AC1EB3EE27C55CC500A8809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6100C3E2545DE6A04EFAFE40 /* Pods-OrtezApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = R3Y55P47Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrtezApp/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Используется для подключения устройств к приложению.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Используется для подключения устройств к приложению.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "please allow";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.smartmedicaltech.srt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1EB3D327C55CC500A8809B /* Build configuration list for PBXProject "OrtezApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1EB3EA27C55CC500A8809B /* Debug */,
+				AC1EB3EB27C55CC500A8809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1EB3EC27C55CC500A8809B /* Build configuration list for PBXNativeTarget "OrtezApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1EB3ED27C55CC500A8809B /* Debug */,
+				AC1EB3EE27C55CC500A8809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC29BC002809A4D200117EC6 /* CoreDataStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC29BC012809A4D200117EC6 /* CoreDataStorage.xcdatamodel */,
+			);
+			currentVersion = AC29BC012809A4D200117EC6 /* CoreDataStorage.xcdatamodel */;
+			path = CoreDataStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC1EB3D027C55CC500A8809B /* Project object */;
+}

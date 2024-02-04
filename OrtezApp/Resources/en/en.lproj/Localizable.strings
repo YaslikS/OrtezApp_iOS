@@ -1,0 +1,180 @@
+/*
+  Localizable.strings
+  OrtezApp
+
+  Created by Maxim Vekovenko on 08.06.2022.
+  
+*/
+
+// Buttons
+
+"continue_btn_text" = "Continue";
+"skip_btn_text" = "Skip";
+"cancel_btn_text" = "Cancel";
+"accept_btn_text" = "Accept";
+"connect_btn_text" = "Connect";
+"start_btn_text" = "Start";
+"ready" = "Ready";
+"save" = "Save";
+"start" = "Start";
+"close" = "Close";
+"yes" = "Yes";
+
+// Device strings
+
+"connect_info" = "Connect the SGU to the electrode and turn on the power.";
+"device_searching" = "SGU is being searched";
+"shoulder_joint" = "Shoulder joint";
+"devices_not_found" = "SGU are not found";
+"connection_problem" = "Can't pair the SGU";
+"success_connect" = "SGU is connected!";
+"set_device_name" = "Give your device a name.";
+"device_name_example" = "For example, shoulder joint";
+"device_name_placeholder" = "My device";
+"device_name_empty_message" = "Device name cannot be empty";
+"devices_not_connect_to_BGS_title" = "Electrode is not conneced tu SGU!";
+"devices_not_connect_to_BGS_message" = "onnect the SGU to the electrode and turn on the power.";
+"devices_connection_lost" = "Communication lost!";
+"edit_device_list_short" = "Edit.";
+"devices_preview" = "Available electrodes";
+"devices_preview_text_link" = "To purchase\ngo to www.smartmedical.tech";
+"my_devices" = "Mu devices";
+"need_access_bluetooth" = "Bluetooth access is needed to connect the device";
+"open_bluetooth_settings" = "Bluetooth settings";
+"devices_not_connected" = "Device is not connected";
+"type_not_found" = "Type is not found";
+
+// Screens strings
+
+"contraindications" = "Attention!\nContraindications!";
+"ask_connect_device" = "Connection";
+"need_connect_cevice" = "Connect a SGU";
+"connecting_device" = "Search for BT with waiting rotation and list of found devices";
+"devices_not_found" = "No any active SGU";
+"connection_error" = "Can't pair";
+"connection_success" = "Device is added successful";
+"set_device_name" = "Set device name";
+"devices_not_connected" = "Screen without BT connected";
+"programs_list" = "Main screen with program cards with upper right switch between option form";
+"devices_preview" = "Showcase of available devices";
+"connection_lost" = "Connection waiting window";
+"info" = "Information";
+"device_manager" = "Device manager";
+"options_without_device" = "Options window without device";
+"options_with_device" = "Options window with device cards";
+"device_status" = "Devices status";
+"program_playlist" = "Program card with stages";
+"player" = "Form of exposure technique";
+"player_settings" = "Stimulation technique settings";
+"player_return_pause" = "Exit pause mode";
+"player_result" = "Session ended (with visual completion of progress and increment of numbers to the desired value)";
+
+"settings_free_mode_chm" = "Free mode settings CHm";
+"settings_free_mode_am" = "Free mode settings AM";
+"free_mode" = "Free mode";
+"new_program" = "Manual program settings (called by +  в 00010_Main )";
+"save_new_free_program_confirm" = "Saving the name of the programs and adding to the list in the form 00010_Main";
+
+// Contraindications
+
+"title" = "Attention! Contraindications!";
+"info_text" = "Electrical stimulation should never be used:";
+"pregnancy" = "• During pregnancy";
+"hernia" = "• By people suffering from herniated or protruding organs";
+"head" = "• To head";
+"epilepsy" = "• For people with epilepsy";
+"injury" = "• In places of traumatic injuries of nerves, muscles and tendons";
+"ischemia" = "• In the acute period of ischemic lesions of the tissues of the brain and heart";
+"skin_disease" = "• At the site of skin disease.";
+"understand" = "Understand";
+
+// Information
+
+"message" = "Every person has own level of sensitivity, which depends on constitution (fat, connective tissue, etc.)\nThe maximum possible, but tolerable level is set to cover more muscle fibers.\nThe most effective way to adjust the level is your own feelings . It is very important that contractions be strong but never become unbearable.";
+
+// DevicesPreview
+
+"name_device1" = "Electrode-1";
+"description_device1" = "Wrist electrode";
+"name_device2" = "Electrode-2";
+"description_device2" = "Neck electrode";
+"name_device3" = "Electrode-3";
+"description_device3" = "Knee electrode";
+"name_device4" = "Electrode-4";
+"description_device4" = "Lower back electrode";
+
+// Options
+
+"write_developers" = "Write to developers";
+"show_dvices_preview" = "View all electrodes";
+"contraindications_title" = "Contraindications";
+"about_app" = "About app";
+"devices_not_connected_info" = "You don't have connected electrodes";
+
+// ProgramsList
+
+"title_programms" = "Available programs";
+"title_electrodes" = "Choose Ortez";
+"forWord" = "for";
+"free_mode_title" = "Free mode (offline)";
+"free_mode_description" = "SGU works offline";
+"use_as_in_photo" = "Place the SGU as shown in the picture";
+"regulate_text" = "You can adjust intensity during a session.";
+"stage" = "Stage";
+"use_info" = "Now you can put down your smartphone and exercise with the orthosis at any distance from it.\nThe connection between the orthosis and the smartphone can be broken, but the orthosis will not turn off.\nDisable the orthosis by pressing the red button. When the connection is restored, continue working with the program as usual.";
+"save_new_program" = "Save the programm";
+"new_program_base_name" = "My new programm";
+"description" = "Description";
+"free_mode" = "Free mode";
+"clear_settings" = "Reset settings";
+"free_mode_message" = "Before setting the parameters “for yourself”, read their description.";
+"free_mode_generation" = "Continuous generation";
+"free_mode_frequency_am" = "Amplitude modulation (Am)";
+"free_mode_frequency_fm" = "Frequency modulation (Fm)";
+"free_mode_power" = "Power";
+"free_mode_frequency" = "Frequency (Hz)";
+"free_mode_intensity" = "Intensity";
+"free_mode_confirm_clear" = "Are you sure you want to reset your preferences?";
+"new_program_duration_min" = "Duration (min)";
+"new_program_Testing" = "Test";
+"modulation_am" = "Modulation (Am)";
+"mode_am" = "Mode АМ";
+
+// DeviceStatus
+
+"device_status_title" = "Device status";
+"code_BGS" = "Code of SGU";
+"firmware_number" = "Firmware number";
+"battery" = "Battery charge";
+"rssi" = "RSSI";
+"type" = "Type of electrodes";
+"power_first" = "Power of 1 channel";
+"power_second" = "Power of 2 channel";
+
+// Player
+
+"message_pause" = "Attention!\nStimulation paused!";
+"time_left" = "Left to finish";
+"minutes" = "minutes";
+"return_pause_title" = "The application\nwas paused for a long time.";
+"return_pause_message" = "The application\nwas paused for a long time.";
+"result_title" = "Session ended!";
+"clear_settings_button" = "Reset settings";
+"max_power_stats" = "Maximum\nexposure\nlevel";
+"medium_power_stats" = "Medium\nexposure\nlevel";
+
+// PlayerSettings
+
+"current_stage_settings_title" = "Current stage settings";
+"modulation" = "Modulation";
+"mode" = "Mode";
+"frequency" = "Frequency";
+"intensity" = "Intensity";
+"duration" = "Duration";
+"recommendation" = "Recommended power";
+"hz" = "Hz";
+"continuous" = "Continuous";
+
+// Alerts
+"Attention" = "Attention";
+"bigPower" = "Setting the power to more than 10% may result in unpleasant skin sensations. Increase power only after the muscles have adapted to the load.";

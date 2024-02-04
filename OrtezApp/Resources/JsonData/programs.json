@@ -1,0 +1,1723 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "statsTitle": "1_program",
+      "title": "Плечевой: Болевой синдром хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 1,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "stage 1"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 60,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "stage 2"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "stage 3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "statsTitle": "run_massage_program",
+      "title": "Плечевой: Болевой синдром острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 1,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "statsTitle": "run_massage_program",
+      "title": "Плечевой: Отёк околосуставных тканей хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_chronical",
+      "electrode": 1,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "statsTitle": "run_massage_program",
+      "title": "Плечевой: Отёк околосуставных тканей острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_acute",
+      "electrode": 1,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "statsTitle": "run_massage_program",
+      "title": "Голеностопный: Болевой синдром хроническое состояниe",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 2,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 60,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "statsTitle": "run_massage_program",
+      "title": "Голеностопный: Болевой синдром острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 2,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "statsTitle": "run_massage_program",
+      "title": "Голеностопный: Отёк околосуставных тканей хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_chronical",
+      "electrode": 2,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "statsTitle": "run_massage_program",
+      "title": "Голеностопный: Отёк околосуставных тканей острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_acute",
+      "electrode": 2,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "statsTitle": "run_massage_program",
+      "title": "Кистевой: Болевой синдром хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 3,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 60,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "statsTitle": "run_massage_program",
+      "title": "Кистевой: Болевой синдром острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 3,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "statsTitle": "run_massage_program",
+      "title": "Кистевой: Отёк околосуставных тканей хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_chronical",
+      "electrode": 3,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "statsTitle": "run_massage_program",
+      "title": "Кистевой: Отёк околосуставных тканей острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_acute",
+      "electrode": 3,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "statsTitle": "run_massage_program",
+      "title": "Коленный: Болевой синдром хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 4,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 60,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "statsTitle": "run_massage_program",
+      "title": "Коленный: Болевой синдром острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 4,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "statsTitle": "run_massage_program",
+      "title": "Коленный: Отёк околосуставных тканей хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_chronical",
+      "electrode": 4,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "statsTitle": "run_massage_program",
+      "title": "Коленный: Отёк околосуставных тканей острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_acute",
+      "electrode": 4,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Болевой синдром хроническое состояние. Вариант 1",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical_1",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Болевой синдром хроническое состояние. Вариант 2",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical_2",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Болевой синдром острое состояние. Вариант 1",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute_1",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Болевой синдром острое состояние. Вариант 2",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute_2",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Мышечный спазм хроническое состояние. Вариант 1",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_chronical_1",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Мышечный спазм хроническое состояние. Вариант 2",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_chronical_2",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Мышечный спазм острое состояние. Вариант 1",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_acute_1",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "statsTitle": "run_massage_program",
+      "title": "Пояс: Мышечный спазм острое состояние. Вариант 2",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_acute_2",
+      "electrode": 5,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Болевой синдром хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Болевой синдром острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Мышечный спазм хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_chronical",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 140,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Мышечный спазм острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "spasm_acute",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Болевой синдром в проекции тазобедренного сустава хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_chronical",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 60,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Болевой синдром в проекции тазобедренного сустава острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "pain_acute",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Отёк околосуставных тканей в проекции тазобедренного сустава хроническое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_chronical",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "statsTitle": "run_massage_program",
+      "title": "Универсальный: Отёк околосуставных тканей в проекции тазобедренного сустава острое состояние",
+      "description": "description",
+      "file": "",
+      "icon": "edema_acute",
+      "electrode": 6,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 340,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 2,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 10,
+          "frequency": 120,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "comment"
+        },
+        {
+          "num": 3,
+          "duration": 600000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": true,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        },
+        {
+          "num": 4,
+          "duration": 300000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 90,
+          "am": false,
+          "am_mode": 1,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "comment"
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "statsTitle": "run_standart_program",
+      "title": "Стандартная программа",
+      "description": "Программа общего применения для всех типов ортезов",
+      "file": "ortez1.png",
+      "icon": "ic_vst.png",
+      "electrode": 1,
+      "stage": [
+        {
+          "num": 1,
+          "duration": 20000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 100,
+          "am": false,
+          "am_mode": 3,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "Сейчас мощность воздействия будет плавно увеличиваться до рекомендуемого значения. Если станет не комфортно, отрегулируйте под себя."
+        },
+        {
+          "num": 2,
+          "duration": 60000,
+          "start_power": 1,
+          "power": 30,
+          "frequency": 100,
+          "am": false,
+          "am_mode": 3,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "Начнем с улучшения трофики."
+        },
+        {
+          "num": 3,
+          "duration": 60000,
+          "start_power": 1,
+          "power": 30,
+          "frequency": 100,
+          "am": true,
+          "am_mode": 3,
+          "intensivity": 1,
+          "fm": false,
+          "comment": "Теперь перейдем к сокращению мышц."
+        },
+        {
+          "num": 4,
+          "duration": 60000,
+          "start_power": 1,
+          "power": 20,
+          "frequency": 60,
+          "am": false,
+          "am_mode": 3,
+          "intensivity": 1,
+          "fm": true,
+          "comment": "Завершаем массаж улучшением трофики."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+PODS:
+  - MKMagneticProgress (1.4)
+  - SnapKit (5.6.0)
+  - YandexMobileMetrica (4.2.0):
+    - YandexMobileMetrica/Static (= 4.2.0)
+  - YandexMobileMetrica/Static (4.2.0):
+    - YandexMobileMetrica/Static/Core (= 4.2.0)
+    - YandexMobileMetrica/Static/Crashes (= 4.2.0)
+  - YandexMobileMetrica/Static/Core (4.2.0)
+  - YandexMobileMetrica/Static/Crashes (4.2.0):
+    - YandexMobileMetrica/Static/Core
+
+DEPENDENCIES:
+  - MKMagneticProgress
+  - SnapKit (~> 5.6.0)
+  - YandexMobileMetrica (= 4.2.0)
+
+SPEC REPOS:
+  trunk:
+    - MKMagneticProgress
+    - SnapKit
+    - YandexMobileMetrica
+
+SPEC CHECKSUMS:
+  MKMagneticProgress: 006b8c763d62986661bcde03794a3dcf56cd084a
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YandexMobileMetrica: f5f9c605eaaba33ff6ab2b6bc3259035ca60ed87
+
+PODFILE CHECKSUM: 0e027c263e3d32e3e1ee290727c6b3fb68850fa8
+
+COCOAPODS: 1.11.3

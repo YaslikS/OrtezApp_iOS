@@ -1,0 +1,34 @@
+{
+  "electrodes": [
+    {
+      "id": 1,
+      "name": "Плечевой",
+      "icon": "Shoulder"
+    },
+    {
+      "id": 2,
+      "name": "Голеностопный",
+      "icon": "Ankle"
+    },
+    {
+      "id": 3,
+      "name": "Кистевой",
+      "icon": "Carpal"
+    },
+    {
+      "id": 4,
+      "name": "Коленный",
+      "icon": "Knee"
+    },
+    {
+      "id": 5,
+      "name": "Пояс",
+      "icon": "Belt"
+    },
+    {
+      "id": 6,
+      "name": "Универсальный",
+      "icon": "Universal"
+    }
+  ]
+}

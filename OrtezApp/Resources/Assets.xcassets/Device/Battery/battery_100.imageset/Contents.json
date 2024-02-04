@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "battery_std_black_24dp 2.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

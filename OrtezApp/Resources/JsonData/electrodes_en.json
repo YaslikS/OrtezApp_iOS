@@ -1,0 +1,34 @@
+{
+  "electrodes": [
+    {
+      "id": 1,
+      "name": "Shoulder",
+      "icon": "Shoulder"
+    },
+    {
+      "id": 2,
+      "name": "Ankle",
+      "icon": "Ankle"
+    },
+    {
+      "id": 3,
+      "name": "Carpal",
+      "icon": "Carpal"
+    },
+    {
+      "id": 4,
+      "name": "Knee",
+      "icon": "Knee"
+    },
+    {
+      "id": 5,
+      "name": "Belt",
+      "icon": "Belt"
+    },
+    {
+      "id": 6,
+      "name": "Universal",
+      "icon": "Universal"
+    }
+  ]
+}

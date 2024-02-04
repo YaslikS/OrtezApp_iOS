@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ortez_pictogram.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
